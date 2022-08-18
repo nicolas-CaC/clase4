@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+@font-face {
+    font-family: nofex;
+    src: url('./src/fonts/Nofex.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.748);
+}
+
+header a {
+    color: rgb(171, 171, 171);
+    text-decoration: none;
+    padding: 0 1em;
+    width: 100%;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+p {
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Fuentes */
+
+.fuentes {
+    font-size: 10px
+}
+
+.encolores {
+    font-family: nofex;
+}
+
+.abc {
+    color: burlywood;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5em;
+}
+
+.font-em {
+    font-size: 2em;
+}
+
+.font-rem {
+    font-size: 2rem;
+}
+
+.fuente-importada {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-size: 1pt;
+    font-size: 1em;
+    font-size: 1rem;
+}
+
+.fuente-instalada {
+    font-family: nofex;
+}
+
+/* Otros */
+
+.clase {
+    color: blue;
+    font-size: 2em;
+}
+
+.borde-un-atributo {
+    border: 1px solid red;
+}
+
+.borde-varios-atributos {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+.color {
+    color: aqua;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 50%);
+    color: #0000ff;
+    color: #00000085;
+    color: hsl(0, 100%, 50%);
+    color: hwb(0 0% 100%)
+}
+
+.fonts {
+    font-family: 'Times New Roman', Times, serif;
+}
